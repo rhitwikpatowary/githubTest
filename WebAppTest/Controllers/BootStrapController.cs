@@ -8,6 +8,7 @@ namespace WebAppTest.Controllers
 {
     public class BootStrapController : Controller
     {
+        private readonly string localName;
         // GET: BootStrap
         public ActionResult Index()
         {
